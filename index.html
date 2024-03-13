@@ -28,11 +28,73 @@
                 <li><a class="contacts-link" href="tel:+110001111111" >+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
-            <button class="open-menu-btn">
-                <svg>
-                    <use></use>
+            <button class="open-menu-btn" type="button">
+                <svg width="24" height="24">
+                    <use href="/images/icons.svg#icon-heroicons-solid_menu"></use>
                 </svg>
             </button>
+            </div>
+            <div class="mobile-menu">
+                <div>
+                    <button type="button" class="mobile-menu-close-btn">
+                        <svg class="modal-close-icon" width="8" height="8">
+                            <use href="./images/icons.svg#icon-close-black"></use>
+                        </svg>
+                    </button>
+                    <nav class="mobile-menu-nav">
+                        <ul class="mobile-menu-list">
+                            <li class="mobile-menu-element">
+                                <a class="mobile-navigation-item" href="./index.html">Studio</a>
+                            </li>
+                            <li class="mobile-menu-element">
+                                <a class="mobile-navigation-item" href="">Portfolio</a>
+                            </li>
+                            <li class="mobile-menu-element">
+                                <a class="mobile-navigation-item" href="">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <address class="mobile-address">
+                    <ul class="mobile-address-menu-list">
+                        <li class="mobile-address-menu-item">
+                            <a class="mobile-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                        <li class="mobile-address-menu-item">
+                            <a class="mobile-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                    <ul class="mobile-menu-social-media">
+                        <li class="mobile-menu-social-media-item">
+                            <a class="mobile-menu-social-media-link" href="">
+                                <svg width="24" height="24" class="mobile-menu-social-media-icon">
+                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-social-media-item">
+                            <a class="mobile-menu-social-media-link" href="">
+                                <svg width="24" height="24" class="mobile-menu-social-media-icon">
+                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-social-media-item">
+                            <a class="mobile-menu-social-media-link" href="">
+                                <svg width="24" height="24" class="mobile-menu-social-media-icon">
+                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-social-media-item">
+                            <a class="mobile-menu-social-media-link" href="">
+                                <svg width="24" height="24" class="mobile-menu-social-media-icon">
+                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </address>
             </div>
     </header>
     <main>
@@ -45,50 +107,40 @@
         <section class="section features-section">
             <div class="container features-section-container">
             <h2 class="visually-hidden">Features</h2>
-            <ul class="feature-icon-list">
-                <li class="feature-icon-item">
+            <ul class="feature-list">
+            <li class="feature-item">
                 <div class="feature-icon-container">
                 <svg class="feature-icon" width="64" height="64">
                     <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
                 </div>
-                </li>
-                <li class="feature-icon-item">
-                    <div class="feature-icon-container">
-                        <svg class="feature-icon" width="64" height="64">
-                            <use href="./images/icons.svg#icon-clock-1"></use>
-                        </svg>
-                    </div>
-                </li>
-                <li class="feature-icon-item">
-                    <div class="feature-icon-container">
-                        <svg class="feature-icon" width="64" height="64">
-                            <use href="./images/icons.svg#icon-diagram-1"></use>
-                        </svg>
-                    </div>
-                </li>
-                <li class="feature-icon-item">
-                    <div class="feature-icon-container">
-                        <svg class="feature-icon" width="64" height="64">
-                            <use href="./images/icons.svg#icon-astronaut-1"></use>
-                        </svg>
-                    </div>
-                </li>
-            </ul>
-            <ul class="feature-list">
-            <li class="feature-item">
                 <h3 class="feature-title">Strategy</h3>
                 <p class="feature-descr">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
             </li>
             <li class="feature-item">
+                <div class="feature-icon-container">
+                        <svg class="feature-icon" width="64" height="64">
+                            <use href="./images/icons.svg#icon-clock-1"></use>
+                        </svg>
+                </div>
                 <h3 class="feature-title">Punctuality</h3>
                 <p class="feature-descr">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
             </li>
             <li class="feature-item">
+                <div class="feature-icon-container">
+                        <svg class="feature-icon" width="64" height="64">
+                            <use href="./images/icons.svg#icon-diagram-1"></use>
+                        </svg>
+                </div>
                 <h3 class="feature-title">Diligence</h3>
                 <p class="feature-descr">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
             </li>
             <li class="feature-item">
+                <div class="feature-icon-container">
+                        <svg class="feature-icon" width="64" height="64">
+                            <use href="./images/icons.svg#icon-astronaut-1"></use>
+                        </svg>
+                </div>
                 <h3 class="feature-title">Technologies</h3>
                 <p class="feature-descr">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
             </li>
@@ -441,8 +493,10 @@
                                 <use href="./images/icons.svg#icon-Vector"></use>
                             </svg>
                         </span>
+                        <span class="privacy-policy-text">
                         I accept the terms and conditions of the
                         <a class="privacy-policy-link" href="">Privacy Policy</a>
+                    </span>
                     </label>
                 </div>
                 <button class="feedback-form-button" type="submit">Send</button>
